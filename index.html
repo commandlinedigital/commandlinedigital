@@ -1,8 +1,43 @@
-<html>
-<head>
-  <title>Command Line Digital</title>
-</head>
-  <body>
-    <h1>Command Line Digital</h1>
-    <h3>Web services and consulting</h3>
-  </body>
+---
+title: Command Line Digital
+---
+
+<section class="hero diagonal">
+	<div class="container">
+		<h2 class="editable">Command Line Digital</h2>
+		<p class="subtext editable">We're a digital agency that's fast, effecient, and effective -- like the command-line.</p>
+		<p><a class="button alt" href="{{ site.baseurl }}/contact/">Contact Us</a></p>
+	</div>
+</section>
+
+<section class="diagonal patterned">
+	<div class="container halves">
+		<div>
+			<h3 class="editable">Services</h3>
+			<p class="editable">Theme design, data migrations, custom integrations, app development, content creation, and more.</p>
+			<p class="editable"><a href="{{ site.baseurl }}/services/">View all services &rarr;</a></p>
+		</div>
+		<div>
+			<ul class="image-grid">
+				{% for service in site.services limit: 1 %}
+					<li><a href="{{ site.baseurl }}{{ service.url }}"><img src="{% include relative-src.html src=service.image_path %}"></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section class="diagonal alternate">
+	<div class="container halves">
+		<div>
+			<ul class="image-list">
+				<!--<li><img src="{{ site.baseurl }}/images/cloudcannon-logo-blue.svg" width="250" style="margin-bottom: 40px;"></li>-->
+				<li><a href="https://bigcommerce.com/"><img src="{{ site.baseurl }}/images/logo-bigcommerce.png" width="300"></a></li>
+			</ul>
+		</div>
+		<div>
+			<h3 class="editable">Our technologies</h3>
+			<p class="editable">We have special expertise with these platforms; however, we're equiped and ready to work with any tech stack you chose.</p>
+		</div>
+	</div>
+</section>

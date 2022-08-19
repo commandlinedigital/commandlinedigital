@@ -1,0 +1,26 @@
+---
+title: Services
+heading: Services
+subtitle: See the services we offer.
+---
+
+<section class="diagonal patterned">
+	<div class="container">
+	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_services/" class="btn"><strong>&#9998;</strong> Manage Clients</a></p>
+		<ul class="image-grid">
+			{% for service in site.services %}
+				<li>
+					<a href="{{ site.baseurl }}{{ service.url }}">
+						<img src="{% include relative-src.html src=service.image_path %}" alt="{{ person.name }}">
+						<div class="details">
+							<div class="name">{{ services.name }}</div>
+							<div class="position">{{ service.subtitle }}</div>
+						</div>
+					</a>
+				</li>
+			{% endfor %}
+			<li class="filler"></li>
+			<li class="filler"></li>
+		</ul>
+	</div>
+</section>
