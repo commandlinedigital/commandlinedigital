@@ -25,7 +25,7 @@ Need some copy written or graphics designed?
 
 <br>
 
-#### Data migration
+### Data migration
 
 ---
 
@@ -35,7 +35,7 @@ Migrating to BigCommerce from another commerce platform or just need a large amo
 
 <br>
 
-#### Custom integration
+### Custom integration
 
 ---
 
@@ -43,7 +43,9 @@ Order management, shipping management,
 
 [Contact us.](/contact/)
 
-#### Maintenance
+<br>
+
+### Maintenance
 
 ---
 
@@ -53,7 +55,7 @@ Content
 
 <br>
 
-#### Page speed optimization
+### Page speed optimization
 
 ---
 
@@ -63,7 +65,7 @@ Content
 
 <br>
 
-#### Theme development
+### Theme development
 
 ---
 

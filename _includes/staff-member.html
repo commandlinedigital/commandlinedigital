@@ -1,15 +1,24 @@
-<!-- <div class="square-image"><img src="{% include relative-src.html src=include.member.image_path %}" alt="{{ include.member.name }}"/></div> -->
+
 <div class="details">
     <div class="name"></div>
     <h3>{{ include.member.name }}</h3>
+    {% if include.member.image_path %}
+    <div class="square-image"><img class="img-staff" src="{% include relative-src.html src=include.member.image_path %}" alt="{{ include.member.name }}"/></div>
+    {% endif %}
     <p>
+        {% if include.member.position %}
         <p><b>Position:</b> {{ include.member.position }}</p>
+        {% endif %}
 
+        {% if include.member.fact %}
         <p><b>Intersting fact:</b> {{ include.member.fact }}</p>
+        {% endif %}
+
+        {% if include.member.about_me %}
         <p>
             {{ include.member.about_me }}
         </p>
-        
+        {% endif %}   
         
     </p>
 </div>

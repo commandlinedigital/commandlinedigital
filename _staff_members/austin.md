@@ -1,7 +1,7 @@
 ---
 name: Austin
 image_path: "/images/austin.jpg"
-position: Engineer
-fact: Fact
-about_me: About
+position: Engineer, CTO
+fact:
+about_me:
 ---

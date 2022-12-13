@@ -10,12 +10,12 @@
       link: /about/
     - name: Contact
       link: /contact/
-# - title: Social
-#   links:
-#     - name: Facebook
-#       link: https://facebook.com/cloudcannon/
-#       social_icon: Facebook
-#       new_window: true
+- title: Follow us
+  links:
+     - name: GitHub
+       link: https://github.com/commandlinedigital
+       social_icon: GitHub
+       new_window: true
 #     - name: Twitter
 #       link: https://twitter.com/cloudcannon/
 #       social_icon: Twitter

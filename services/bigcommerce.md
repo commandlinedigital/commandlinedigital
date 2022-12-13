@@ -13,7 +13,7 @@ layout: service
 
 Don’t see an app with the functionality you need in the [BigCommerce Marketplace](https://www.bigcommerce.com/apps/)? Let us develop a custom [single-click app](https://developer.bigcommerce.com/docs/3ef776e175eda-big-commerce-apps-quick-start) for you.
 
-[Contact us.]](/contact/)
+[Contact us.](/contact/)
 
 <br>
 
@@ -23,7 +23,7 @@ Don’t see an app with the functionality you need in the [BigCommerce Marketpla
 
 We can create custom checkout experiences for your storefront using [BigCommerce’s Open Checkout](https://github.com/bigcommerce/checkout-js).
 
-[Contact us.]](/contact/)
+[Contact us.](/contact/)
 
 <br>
 
@@ -33,7 +33,7 @@ We can create custom checkout experiences for your storefront using [BigCommerce
 
 Migrating to BigCommerce from another commerce platform or just need a large amount of complex data imported or exported?
 
-[Contact us.]](/contact/)
+[Contact us.](/contact/)
 
 <br>
 
@@ -43,7 +43,7 @@ Migrating to BigCommerce from another commerce platform or just need a large amo
 
 Content
 
-[Contact us.]](/contact/)
+[Contact us.](/contact/)
 
 <br>
 
@@ -53,6 +53,8 @@ Content
 
 [headless](https://developer.bigcommerce.com/docs/ZG9jOjE4MjIyNjU2-introduction-to-headless-commerce)
 
+[Contact us.](/contact/)
+
 <br>
 
 ### Theme development
@@ -61,7 +63,7 @@ Content
 
 Content
 
-[Contact us.]](/contact/)
+[Contact us.](/contact/)
 
 <br>
 
@@ -71,4 +73,4 @@ Content
 
 Content - [widgets](https://developer.bigcommerce.com/docs/ZG9jOjIyMDc0MQ-widgets-api)
 
-[Contact us.]](/contact/)
+[Contact us.](/contact/)

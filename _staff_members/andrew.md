@@ -1,7 +1,7 @@
 ---
 name: Andrew
-image_path: "/images/austin.jpg"
-position: Engineer
-fact: Fact
-about_me: About
+image_path:
+position: Engineer, VP of Engineering
+fact:
+about_me:
 ---

@@ -14,7 +14,7 @@ layout: service
 * Maintenance and support
 * Page speed optimization
 * Theme design and development
-* [Learn more.](/services/web)
+<!-- * [Learn more.](/services/web) -->
 
 ### BigCommrce services
 
@@ -25,7 +25,7 @@ layout: service
 * Headless storefront development
 * Theme development
 * Widget development
-* [Learn more.](/services/bigcommerce)
+<!-- * [Learn more.](/services/bigcommerce) -->
 
 
 ### Tools and documentation
@@ -33,4 +33,4 @@ layout: service
 * Documentation writing
 * API Client creation
 * CLI tool development
-* [Learn more.](/services/tools)
+<!-- [Learn more.](/services/tools) -->
