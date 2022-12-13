@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-{% assign services = site.pages | where: "path", "services.html" | first %}
+{% assign services = site.pages | where: "path", "services.index.html" | first %}
 
 <section class="hero diagonal">
 	<div class="container">
-		{% if services.heading %}
-		<h2><a href="{{ site.baseurl }}/services/">{{ services.heading }}</a> / {{ page.title | capitalize }}</h2>
+		{% if page.heading %}
+			<h2>{{ page.heading }}</h2>
+		{% elsif page.title %}
+			<h2>{{ page.title }}</h2>
 		{% endif %}
 		{% if page.subtitle %}
 			<p class="subtext">{{ page.subtitle }}</p>
@@ -20,6 +22,6 @@ layout: default
 		<div>
 			{{ content }}
 		</div>
-		<p><a href="{{ page.external_url }}">View {{ page.title }} &rarr;</a></p>
+		<!-- <p><a href="{{ page.external_url }}">View {{ page.title }} &rarr;</a></p> -->
 	</div>
 </section>
