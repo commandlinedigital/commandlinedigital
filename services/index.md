@@ -7,6 +7,8 @@ layout: service
 
 ### General web services
 
+---
+
 * Consulting
 * Content creation
 * Data migration
@@ -18,6 +20,8 @@ layout: service
 
 ### BigCommrce services
 
+---
+
 * App development
 * Custom checkout development
 * Data migration
@@ -27,8 +31,9 @@ layout: service
 * Widget development
 <!-- * [Learn more.](/services/bigcommerce) -->
 
+### Tool and doc creation
 
-### Tools and documentation
+---
 
 * Documentation writing
 * API Client creation

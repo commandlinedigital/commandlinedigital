@@ -2,6 +2,7 @@
 <div class="details">
     <div class="name"></div>
     <h3>{{ include.member.name }}</h3>
+    <hr>
     {% if include.member.image_path %}
     <div class="square-image"><img class="img-staff" src="{% include relative-src.html src=include.member.image_path %}" alt="{{ include.member.name }}"/></div>
     {% endif %}
